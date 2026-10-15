@@ -1,0 +1,53 @@
+name: focus_reminder
+description: "强效提醒与专注管理 APP - Flutter MVP 架构示例"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # ========== 状态管理：Riverpod 2.x ==========
+  # 运行时 + 注解 + 代码生成器三件套
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # ========== 本地数据库：Isar ==========
+  # 高性能 NoSQL 数据库，支持索引/查询/全文搜索
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1  # Isar 原生二进制库（Android/iOS/Windows）
+
+  # ========== 本地通知 ==========
+  # 精确调度系统本地通知，支持后台触发
+  flutter_local_notifications: ^17.2.2
+  # 时区处理：解决夏令时、跨时区调度问题（两件套）
+  timezone: ^0.9.4
+  flutter_timezone: ^3.0.1  # 从原生系统读取"本地时区 IANA 名"（如 Asia/Shanghai）
+
+  # ========== 工具库 ==========
+  # 日期格式化（用于 UI 展示和日志）
+  intl: ^0.19.0
+  # 获取应用沙盒路径（Isar 数据库文件存储路径）
+  path_provider: ^2.1.4
+  # 生成任务的唯一通知 ID
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # ========== 代码生成器 ==========
+  # 统一由 build_runner 调度，执行一次生成所有 .g.dart
+  build_runner: ^2.4.13
+  # Isar 代码生成器：@Collection() -> task_model.g.dart
+  isar_generator: ^3.1.0+1
+  # Riverpod 代码生成器：@riverpod -> xxx_providers.g.dart
+  riverpod_generator: ^2.4.0
+
+flutter:
+  uses-material-design: true
