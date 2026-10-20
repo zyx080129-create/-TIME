@@ -67,3 +67,12 @@ android/        Android 原生强提醒实现
 ios/            iOS Runner 配置
 test/           Flutter 测试
 ```
+
+示例：
+<img width="1194" height="1023" alt="ffeed343847912ab9e4d1b48adfdc98a" src="https://github.com/user-attachments/assets/0236fc62-8af9-49b4-ad92-f8d367a4c479" />
+<img width="1194" height="1023" alt="74e9d836886eebe26ee3107f05122244" src="https://github.com/user-attachments/assets/6694ab73-067c-4d98-87c5-31d689727023" />
+<img width="1194" height="1023" alt="faf55c15d6bdc1b23862130876f3ab18" src="https://github.com/user-attachments/assets/4a7460b7-0997-4873-afa0-b97d7998c680" />
+<img width="1194" height="1023" alt="3d9ce4978ecfed22eb4aa158ff98d08d" src="https://github.com/user-attachments/assets/6bc70ed3-4429-41e4-b39d-a3c5e3353ae5" />
+<img width="1194" height="1023" alt="3d9ce4978ecfed22eb4aa158ff98d08d" src="https://github.com/user-attachments/assets/3e993a96-7f47-45e9-88f4-9e79ed167073" />
+<img width="1194" height="1023" alt="037c9bd6f00b8b2e0bd39c957236c028" src="https://github.com/user-attachments/assets/36c2f380-8c6e-4451-9e44-b64313d81f10" />
+
